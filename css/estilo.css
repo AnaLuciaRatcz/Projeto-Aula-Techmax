@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&family=Lobster&family=Nanum+Gothic&family=Noto+Sans+TC:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    font-family: "Cabin", sans-serif;
+    
+}
+
+.navbar{
+    display: flex;
+    flex-flow: row wrap;
+    height: 100px;
+    /*background: rgb(170, 170, 231);*/
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.logo{
+    flex: 20%;
+    /*border: 1px solid black;*/
+    text-align: center;
+    font-size: 15px;
+
+}
+.logo h1{
+    font-family:"Cabin", sans-serif;
+
+}
+.menu{
+    flex: 50%;
+    /*border: 1px solid black;*/
+    text-align: left;
+    padding: 40px;
+    
+}
+.menu a{
+    text-decoration: none;
+    color: rgb(139, 135, 135);
+    font-size: 100%;
+    font-weight: bold;
+    padding: 20px 16px;
+}
+.menu_botoes a{
+    padding: 12px 20px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    font-size: 100%;
+    font-weight: bold; 
+    background-color: rgb(124, 124, 240);
+    border-radius: 20px;
+}
+
+.menu_botoes{
+flex: 30%;
+padding: 20px;
+}
+
+#botao{
+    margin-left: 25px;
+}
+
+.menu_botoes :hover{
+    background: blue;
+}
+
+.header{
+   /* height: 600px;*/
+    background: rgb(221, 97, 118);
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.back{
+    background-image: url("../img/home-bg.jpg");
+} 
+
+.headline{
+    margin-left: 6%;
+    flex: 44%;
+    border: 1px solid black;
+}
+
+.headline h2{
+    font-weight: 900;
+    font-size: 20px;
+    color: black;
+}
+
+.title h2 {
+    font-size: 100px;
+}
+
+.img_headline{
+    margin-right: 6%;
+    flex: 44%;
+   /* border: 1px solid black;*/
+    text-align: center;
+}
+   

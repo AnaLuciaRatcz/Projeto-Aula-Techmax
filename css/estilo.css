@@ -36,8 +36,8 @@ body{
     /*border: 1px solid black;*/
     text-align: left;
     padding: 40px;
-    
 }
+
 .menu a{
     text-decoration: none;
     color: rgb(139, 135, 135);
@@ -71,29 +71,40 @@ padding: 20px;
 
 .header{
    /* height: 600px;*/
-    background: rgb(221, 97, 118);
+   /* background: rgb(221, 97, 118);*/
     display: flex;
     flex-flow: row wrap;
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 
 .back{
     background-image: url("../img/home-bg.jpg");
+    width: 100%;
+    height: 500px;
+    background-size: cover;
 } 
 
 .headline{
     margin-left: 6%;
-    flex: 44%;
-    border: 1px solid black;
+    flex: 18%;
+    /*border: 1px solid black;*/
 }
 
 .headline h2{
     font-weight: 900;
-    font-size: 20px;
-    color: black;
+    font-size: 15px;
+    color: rgb(139, 135, 135);
 }
 
-.title h2 {
-    font-size: 100px;
+.headline h2 span {
+    color: blue;
+}
+
+.headline .title {
+    font-size: 30px;
+    color: black;
+    text-align: left;
 }
 
 .img_headline{
@@ -101,5 +112,66 @@ padding: 20px;
     flex: 44%;
    /* border: 1px solid black;*/
     text-align: center;
+    justify-content: center;
 }
-   
+
+/*.headline p a {
+    text-align: left;
+    text-decoration: none;
+}*/
+
+.bots{
+    display:flex;
+    margin-left: 6%;  
+    flex 100%;    
+    border: 1px solid  black;
+    width: 100%;
+}
+
+.botum{
+    color: blue;
+    background: white;
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-size: 15px;
+    box-shadow: 1px 1px 1px  gray; 
+    text-decoration: none;   
+}
+
+.botdois{
+    color: white;
+    background:rgb(124, 124, 240);;
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-size: 15px;
+    text-decoration: none;   
+}
+
+.botum:hover{
+    background: blue;
+}
+
+section{
+    display: inline-block;
+    margin-top: 80px;
+    /*border: 1px solid black;*/
+    margin-left: 5%;
+    margin-right: 5%;
+   /* height: 400px;*/
+    text-align: center;
+    padding: 5%;
+}
+
+.serviços{
+    display: inline-block;
+    margin-top: 5%;
+}
+
+.card{
+    display: inline-block;
+    width: 30%;
+    padding: 20px;
+    margin: 1%;
+   /* border: 1px solid black;*/
+    box-shadow: 1px 1px 1px 1px gray;
+}

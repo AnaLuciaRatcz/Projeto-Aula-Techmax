@@ -309,7 +309,9 @@ margin-top: -5%;
    margin-right: 5px;
 }
 
-.faixa_azul_texto h2{
+.faixa_azul_texto{
+    display: inline-block;
+    
     
 }
 

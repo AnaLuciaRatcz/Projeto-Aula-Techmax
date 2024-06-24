@@ -386,8 +386,8 @@ margin-top: -1%;
 
 .expert {
     height: 600px;
-    background: rgb(245, 188, 198);
-    border: 1px solid black;
+   /* background: rgb(245, 188, 198);
+    border: 1px solid black;*/
 }
 
 .expert h2{
@@ -396,37 +396,75 @@ margin-top: -1%;
     padding-right: 150px;
     font-size: 35px;
     font-weight: 500;  
-    border: 1px solid black;
+    /*border: 1px solid black;*/
     color: rgb(51, 50, 50);
 }
 
-.expert_card {
-    height: 300px;
+.expert_cards {
+    /*height: 300px;*/
     display: flex;
     margin-top: 60px;
-    padding-right: 20%;
-    border: 1px solid black;
-    gap: 20px;
+   /* padding-right: 20%;*/
+    /*border: 1px solid black;*/
+   /* gap: 20px;*/
+   justify-content: space-evenly;
 }
 
-.expert_nomes h3{
+.expert_area{
+    display: flex;
+    flex-direction: column;
+}
+
+.expert_area .expert_img{
+    width: 253px;
+    height: 282px;
+    border-radius: 4px;
+}
+.expert_area .expert_icons{
+    display: flex;
+    width: 253px;
+    height: 282px;
+    border-radius: 4px;
+    background-color: rgba(49, 49, 240, 0.8);
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: -282px;
+    opacity: 0;
+}
+
+.expert_area:hover .expert_icons{
+    opacity: 1;
+}
+
+.expert_area .expert_icons a {
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    border-radius: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.expert_area h3 {
     color: rgb(32, 31, 31);
-    border: 1px solid black;
-    width: 20%;
+    /*border: 1px solid black;*/
+    /*width: 20%;*/
     display: inline-flex;
     justify-content: center;
     /*margin-left: 40px;*/
     margin-bottom: 0px;
 }
 
-.expert_cargos h4{
-    color:rgb(49, 49, 240);
-    border: 1px solid black;
+.expert_area h4 {
+    color: rgb(49, 49, 240);
+    /*border: 1px solid black;*/
     display: inline-flex;
-    width: 20%;
+    /*width: 20%;*/
     justify-content: center;
-    margin-top: -15px;  
+    margin-top: 8px;
 }
+
 
 
 
@@ -436,13 +474,27 @@ margin-top: -1%;
 .our_client{
     display: flex;
     height: 450px;
-    background: white(242, 216, 221);
+    background: rgb(251, 248, 248);
     /*border: 1px solid black;*/
 }
 
+.our_client .our_client_titulo {
+   /* font-size: 30px;
+    display: flex;
+    border: 1px solid black;
+    width: 100%;
+    height: 30px;
+    margin-top: -20px;
+    justify-content: center;
+    margin-left: 200px;  */ 
+    
+}
 .our_client_cards{
+margin-top: 50px;
     display: flex;
    /* border: 1px solid black;*/
+   background-color: red;
+
 }
 
 .our_client .estrela img {
@@ -465,6 +517,7 @@ color: rgb(49, 48, 48);
     padding-left: 30px;
     padding-right: 30px;
     padding-top: 10px;
+    line-height: 28px;
 }
 
 .our_client_cards h2{
@@ -475,3 +528,7 @@ color: rgb(49, 48, 48);
     font-weight: 200;
     margin-top: -10px;
 }
+
+
+
+

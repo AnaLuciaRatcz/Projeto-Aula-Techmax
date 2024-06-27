@@ -647,5 +647,165 @@ color: rgb(49, 48, 48);
     font-weight: 600;
 }
 
+.logotipos{
+background-color: rgb(236, 235, 235); 
+height: 210px;
+width: 100%;
+margin-left: -5px;
+margin-top: 10px;
+}
+
+.logotipos_img {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 4px;
+}
 
 
+
+.rodape1 {
+    /*border: 1px solid black;*/
+    height: 400px;
+    width: 100%;
+    margin-left: -5px;
+    margin-top: -10px;
+}
+
+.rodape1_img{
+    height: 400px;
+    width: 111%;
+    margin-top: -69px;
+    margin-left: -63px;
+}
+
+.rodape1_cards {
+    display:flex;
+    color: white;
+    margin-top: -320px;
+}
+
+.rodape1_cards h2{
+    border-bottom: 1px solid white;
+    padding-bottom: 20px;
+    width: 90%;
+    
+}
+
+.rodape1_cards .rodape1_card1{
+    /*border: 1px solid green;*/
+    width: 33%;
+    text-align: left;
+    font-weight: 600;
+    margin-left: 7%;
+}
+
+.rodape1_cards .rodape1_card2{
+    /*border: 1px solid green;*/
+    width: 13%;
+    text-align: left;
+    font-weight: 600;
+    margin-right: 2%;
+}
+
+
+.rodape1_cards .rodape1_card3{
+    /*border: 1px solid green;*/
+    width: 13%;
+    text-align: left;
+    font-weight: 600;
+    margin-right: 2%;
+}
+
+
+.rodape1_cards .rodape1_card4{
+    /*border: 1px solid green;*/
+    width: 30%;
+    text-align: left;
+    font-weight: 600;
+}
+
+.rodape1 h2{
+font-size: 22px;
+}
+
+.rodape1_card1 p{
+padding-right: 15px; /* nao funciona*/
+line-height: 25px;
+}
+
+.rodape1_card1 img {
+    width: 20px;
+    height: 20px;
+}
+
+.rodape1_card1 .rodape1_icons a {
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    display:inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 3px;
+    margin: 6px;
+}
+
+.rodape1_card2 ul{
+    list-style: none;
+    padding-left: 2px;
+    line-height: 33px;
+}
+
+.rodape1_card3 ul{
+    list-style: none;
+    padding-left: 2px;
+    line-height: 33px;
+}
+
+.rodape1_card4 ul{
+    list-style: none;
+    padding-left: 2px;
+    line-height: 33px;
+}
+
+.rodape1_card4 .botao1 {
+    background-color: white;
+    border-radius: 5px;
+    text-decoration: none;
+    padding: 10px 50px;
+    color: gray;
+    text-align: left; /*nao funciona*/
+    
+}
+
+.rodape1_card4 .botao2 {
+    background-color:rgb(49, 49, 240);
+    border-radius: 5px;
+    text-decoration: none;
+    padding: 10px 20px;
+    color:white;
+    margin-left: -4px;   
+}
+
+.rodape2 {
+    background-color: rgb(7, 7, 39);
+    width: 100%;
+    margin-left: -5px;
+    margin-top: -4px;
+    height: 30px;
+}
+
+.rodape2 h3{
+    color: white;
+    font-size: 15px;
+    font-weight: 800;
+}
+
+.rodape2_texto1{
+    text-align: left;
+    margin-top: -10px;
+}
+
+.rodape2_texto2{
+    text-align: right;
+    margin-top: -30px;
+}
